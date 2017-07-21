@@ -1,0 +1,32 @@
+.theme21{
+  .letter_div{
+    padding:16px
+  }
+  .letter{
+    float:left;
+	font-size:14px;
+  color:#777;
+  animation-name:theme21;
+	animation-duration:1.6s;
+	animation-iteration-count:infinite;
+	animation-direction:linear
+  }
+  .letter1{ animation-delay:.48s}
+  .letter2{ animation-delay:.6s}
+  .letter3{ animation-delay:.72s}
+  .letter4{ animation-delay:.84s}
+  .letter5{ animation-delay:.96s}
+  .letter6{ animation-delay:1.08s}
+  .letter7{ animation-delay:1.2s}
+  .letter8{ animation-delay:1.32s}
+  .letter9{ animation-delay:1.44s}
+  .letter10{ animation-delay:1.56s}
+  @keyframes theme21 {
+      0% {
+        opacity:0
+      }
+      100% {
+        opacity:1
+      }
+  }
+}

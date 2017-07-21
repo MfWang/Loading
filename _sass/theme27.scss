@@ -1,0 +1,22 @@
+.theme27{
+  .line{
+    display:inline-block;
+    width:15px;
+    height:15px;
+    border-radius:15px;
+    animation:theme27 1.5s cubic-bezier(.17,.37,.43,.67) infinite;
+    background-color:#00BCD4;
+  }
+  @keyframes theme27 {
+      0% {
+      width:15px
+    }
+    50% {
+      width:35px;
+      padding:4px
+    }
+    100% {
+      width:15px
+    }
+  }
+}

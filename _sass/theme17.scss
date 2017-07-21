@@ -1,0 +1,49 @@
+.theme17 {
+  width: 800px;
+  .loading{
+    .line {
+      display:inline-block;
+      background:#666;
+      height:10px;
+      width:10px;
+      opacity:0;
+      border-radius:50%;
+      transform:translateX(-300px);
+      background-color:#4b9cdb
+    }
+    .line1 {
+      animation: theme17 4s 0.8s infinite;
+    }
+    .line2 {
+      animation: theme17 4s 0.7s infinite;
+    }
+    .line3 {
+      animation: theme17 4s 0.6s infinite;
+    }
+    .line4 {
+      animation: theme17 4s 0.5s infinite;
+    }
+    .line5 {
+      animation: theme17 4s 0.4s infinite;
+    }
+    .line6 {
+      animation: theme17 4s 0.3s infinite;
+    }
+    .line7 {
+      animation: theme17 4s 0.2s infinite;
+    }
+    .line8 {
+      animation: theme17 4s 0.1s infinite;
+    }
+  }
+  @keyframes theme17 {
+    40% {
+      transform:translateX(0);
+      opacity:.8
+    }
+    100% {
+      transform:translateX(300px);
+      opacity:0
+    }
+  }
+}

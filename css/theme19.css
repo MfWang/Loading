@@ -1,0 +1,62 @@
+.theme19 .ring {
+  position: relative;
+  width: 45px;
+  height: 45px;
+  margin: 0 auto;
+  border: 4px solid #9C27B0;
+  border-radius: 100%;
+  animation: theme19 2.3s linear infinite;
+}
+.theme19 .ball {
+  position: absolute;
+  width: 12px;
+  height: 45px;
+  left: 17px;
+  top: 0;
+}
+.theme19 .ball1 {
+  position: absolute;
+  top: -10px;
+  left: -1px;
+  width: 16px;
+  height: 16px;
+  border-radius: 100%;
+  background: #CDDC39;
+}
+.theme19 .ball2 {
+  position: absolute;
+  bottom: -10px;
+  left: -1px;
+  width: 16px;
+  height: 16px;
+  border-radius: 100%;
+  background: #F44336;
+}
+.theme19 .ball3 {
+  position: absolute;
+  top: 14px;
+  left: -26px;
+  width: 16px;
+  height: 16px;
+  border-radius: 100%;
+  background: #4CAF50;
+}
+.theme19 .ball4 {
+  position: absolute;
+  top: 14px;
+  right: -26px;
+  width: 16px;
+  height: 16px;
+  border-radius: 100%;
+  background: #3F51B5;
+}
+@keyframes theme19 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/*# sourceMappingURL=theme19.css.map */

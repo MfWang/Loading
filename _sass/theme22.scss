@@ -1,0 +1,32 @@
+.theme22{
+  .letter_div{
+    padding:16px
+  }
+  .letter{
+    float:left;
+	font-size:14px;
+  color:#777;
+  animation-name:theme22;
+	animation-duration:1.6s;
+	animation-iteration-count:infinite;
+	animation-direction:linear
+  }
+  .letter1{ animation-delay:.48s;color:#F44336}
+  .letter2{ animation-delay:.6s;color:#3F51B5}
+  .letter3{ animation-delay:.72s;color:#009688}
+  .letter4{ animation-delay:.84s;color:#4CAF50}
+  .letter5{ animation-delay:.96s;color:#8BC34A}
+  .letter6{ animation-delay:1.08s;color:#CDDC39}
+  .letter7{ animation-delay:1.2s;color:#FF9800}
+  .letter8{ animation-delay:1.32s;color:#FF5722}
+  .letter9{ animation-delay:1.44s;color:#795548}
+  .letter10{ animation-delay:1.56s;color:#607D8B}
+  @keyframes theme22 {
+      0% {
+        opacity:0
+      }
+      100% {
+        opacity:1
+      }
+  }
+}

@@ -1,0 +1,34 @@
+.theme11 {
+  .loading{
+    .line {
+      display:inline-block;
+      width:15px;
+      height:15px;
+      border-radius:15px;
+      background-color:#4b9cdb
+    }
+    .line5-1 {
+      animation: theme11 1.5s 0s infinite;
+      background: #F44336;
+    }
+    .line5-2 {
+      animation: theme11 1.5s .5s infinite;
+      background: #F44336;
+    }
+    .line5-3 {
+      animation: theme11 1.5s 1s infinite;
+      background: #F44336;
+    }
+  }
+  @keyframes theme11 {
+    0% {
+      width:15px;
+    }
+    50% {
+      width:35px;
+    }
+    100% {
+      width:15px;
+    }
+  }
+}

@@ -1,0 +1,31 @@
+/* theme1 1 */
+.theme1 .loading > div {
+  background-color: #fff;
+  height: 50px;
+  width: 6px;
+  display: inline-block;
+  animation: theme1 1.2s infinite ease-in-out;
+}
+.theme1 .loading .rect2 {
+  animation-delay: -1.1s;
+}
+.theme1 .loading .rect3 {
+  animation-delay: -1.0s;
+}
+.theme1 .loading .rect4 {
+  animation-delay: -0.9s;
+}
+.theme1 .loading .rect5 {
+  animation-delay: -0.8s;
+}
+
+@keyframes theme1 {
+  0%, 40%, 100% {
+    transform: scaleY(0.4);
+  }
+  20% {
+    transform: scaleY(1);
+  }
+}
+
+/*# sourceMappingURL=theme1.css.map */

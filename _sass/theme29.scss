@@ -1,0 +1,75 @@
+.theme29{
+  .loader{
+    display:inline-block;
+    font-size:2em;
+    margin:0 .5em;
+    position:relative;
+    height:.5em;
+    width:1em;
+    &:before,&:after{
+      content:"";
+      display:block;
+      height:.5em;
+      position:absolute;
+      width:.5em;
+    }
+    &:before{
+      animation:theme29_1 2s ease-in-out infinite,theme29_3 .66s ease-in-out infinite;
+	    background:#ee6362
+    }
+    &:after{
+      animation:theme29_2 2s ease-in-out infinite,theme29_4 .66s ease-in-out infinite;
+	    background:#2cb0b2
+    }
+  }
+  @keyframes theme29_1 {
+    0% {
+      left:0;
+      transform:scale(1.1)
+    }
+    50% {
+      left:100%;
+      transform:scale(1)
+    }
+    100% {
+      left:0;
+      transform:scale(1.1)
+    }
+  }
+  @keyframes theme29_2 {
+    0% {
+      left:100%;
+      transform:scale(1.1)
+    }
+    50% {
+      left:0;
+      transform:scale(1)
+    }
+    100% {
+      left:100%;
+      transform:scale(1.1)
+    }
+  }
+  @keyframes theme29_3 {
+    0% {
+      z-index:0
+    }
+    50% {
+      z-index:1
+    }
+    100% {
+      z-index:0
+    }
+  }
+  @keyframes theme29_4 {
+    0% {
+      z-index:1
+    }
+    50% {
+      z-index:0
+    }
+    100% {
+      z-index:1
+    }
+  }
+}

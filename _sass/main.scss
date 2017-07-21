@@ -1,0 +1,57 @@
+@import './site.scss';
+@import './variable.scss';
+@import './theme1.scss';
+@import './theme2.scss';
+@import './theme3.scss';
+@import './theme4.scss';
+@import './theme5.scss';
+@import './theme6.scss';
+@import './theme7.scss';
+@import './theme8.scss';
+@import './theme9.scss';
+@import './theme10.scss';
+@import './theme11.scss';
+@import './theme12.scss';
+@import './theme13.scss';
+@import './theme14.scss';
+@import './theme15.scss';
+@import './theme16.scss';
+@import './theme17.scss';
+@import './theme18.scss';
+@import './theme19.scss';
+@import './theme20.scss';
+@import './theme21.scss';
+@import './theme22.scss';
+@import './theme23.scss';
+@import './theme24.scss';
+@import './theme25.scss';
+@import './theme26.scss';
+@import './theme27.scss';
+@import './theme28.scss';
+@import './theme29.scss';
+@import './theme8.scss';
+
+body{
+}
+.loading{
+  text-align: center;
+}
+.container{
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-items: center;
+  background: $body_color;
+}
+.theme{
+    background: $background_color;
+    margin: 10px;
+    width: 140px;
+    height: 140px;
+    text-align: center;
+    p{
+      line-height: 35px;
+      color: #000;
+      font-size: 16px;
+    }
+}

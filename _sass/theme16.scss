@@ -1,0 +1,46 @@
+.theme16 {
+  .loading{
+    .line {
+      display:inline-block;
+      width:15px;
+      height:15px;
+      border-radius:15px;
+      background-color:#4b9cdb
+    }
+    .line1 {
+      animation: theme16 2s 0s infinite;
+    }
+    .line2 {
+      animation: theme16 2s .15s infinite;
+    }
+    .line3 {
+      animation: theme16 2s .3s infinite;
+    }
+    .line4 {
+      animation: theme16 2s .45s infinite;
+    }
+    .line5 {
+      animation: theme16 2s .6s infinite;
+    }
+  }
+  @keyframes theme16 {
+    0% {
+      transform:translateY(0)
+    }
+    35% {
+      transform:translateY(0);
+	    opacity:.3
+    }
+    50% {
+      transform:translateY(-20px);
+	    opacity:.8
+    }
+    70% {
+      transform:translateY(3px);
+	    opacity:.8
+    }
+    85% {
+      transform:translateY(-3px)
+    }
+  }
+}

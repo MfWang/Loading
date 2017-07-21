@@ -1,0 +1,19 @@
+@import './variable.scss';
+.theme7{
+  .loading {
+    width: 100px;
+    height: 100px;
+    background-color: $loading_color;
+    border-radius: 100%;  
+    animation: scaleout 1.0s infinite ease-in-out;
+  }
+  
+  @keyframes scaleout {
+    0% { 
+      transform: scale(0.0);
+    } 100% {
+      transform: scale(1.0);
+      opacity: 0;
+    }
+  }
+}

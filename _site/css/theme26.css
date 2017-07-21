@@ -1,0 +1,44 @@
+.theme26 .square {
+  margin-left: 25%;
+  width: 50px;
+}
+.theme26 .squaret {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background: #000;
+  opacity: 1;
+  animation: theme26 2.8s infinite;
+  opacity: 0;
+}
+.theme26 .square2 {
+  animation-delay: .7s;
+}
+.theme26 .square3 {
+  animation-delay: 2.1s;
+}
+.theme26 .square4 {
+  animation-delay: 1.4s;
+}
+@keyframes theme26 {
+  0% {
+    opacity: .5;
+    background: #000;
+  }
+  30% {
+    opacity: .5;
+    background: #666;
+  }
+  60% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: .5;
+    background: #000;
+  }
+}
+
+/*# sourceMappingURL=theme26.css.map */

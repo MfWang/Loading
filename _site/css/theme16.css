@@ -1,0 +1,44 @@
+.theme16 .loading .line {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  background-color: #4b9cdb;
+}
+.theme16 .loading .line1 {
+  animation: theme16 2s 0s infinite;
+}
+.theme16 .loading .line2 {
+  animation: theme16 2s .15s infinite;
+}
+.theme16 .loading .line3 {
+  animation: theme16 2s .3s infinite;
+}
+.theme16 .loading .line4 {
+  animation: theme16 2s .45s infinite;
+}
+.theme16 .loading .line5 {
+  animation: theme16 2s .6s infinite;
+}
+@keyframes theme16 {
+  0% {
+    transform: translateY(0);
+  }
+  35% {
+    transform: translateY(0);
+    opacity: 0.3;
+  }
+  50% {
+    transform: translateY(-20px);
+    opacity: 0.8;
+  }
+  70% {
+    transform: translateY(3px);
+    opacity: 0.8;
+  }
+  85% {
+    transform: translateY(-3px);
+  }
+}
+
+/*# sourceMappingURL=theme16.css.map */

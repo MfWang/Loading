@@ -1,0 +1,52 @@
+.theme21 .letter_div {
+  padding: 16px;
+}
+.theme21 .letter {
+  float: left;
+  font-size: 14px;
+  color: #777;
+  animation-name: theme21;
+  animation-duration: 1.6s;
+  animation-iteration-count: infinite;
+  animation-direction: linear;
+}
+.theme21 .letter1 {
+  animation-delay: .48s;
+}
+.theme21 .letter2 {
+  animation-delay: .6s;
+}
+.theme21 .letter3 {
+  animation-delay: .72s;
+}
+.theme21 .letter4 {
+  animation-delay: .84s;
+}
+.theme21 .letter5 {
+  animation-delay: .96s;
+}
+.theme21 .letter6 {
+  animation-delay: 1.08s;
+}
+.theme21 .letter7 {
+  animation-delay: 1.2s;
+}
+.theme21 .letter8 {
+  animation-delay: 1.32s;
+}
+.theme21 .letter9 {
+  animation-delay: 1.44s;
+}
+.theme21 .letter10 {
+  animation-delay: 1.56s;
+}
+@keyframes theme21 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/*# sourceMappingURL=theme21.css.map */

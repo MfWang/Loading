@@ -1,0 +1,29 @@
+.theme25{
+  .square{
+    margin-left:25%;
+	  width:50px
+  }
+  .squaret{
+    display:inline-block;
+    width:15px;
+    height:15px;
+    background:#000;
+    opacity:.2;
+    animation:theme25 2s infinite;
+    opacity:.5
+  }
+  .square1{transform:translate(0,-25px)}
+  .square2{transform:translate(25px,0)}
+  .square3{transform:translate(-25px,0)}
+  .square4{transform:translate(0,25px)}
+  @keyframes theme25 {
+      33% {
+        transform:translate(0,0);
+        opacity:.7
+      }
+      66% {
+        transform:translate(0,0);
+        opacity:.7
+      }
+  }
+}

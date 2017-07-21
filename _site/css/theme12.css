@@ -1,0 +1,38 @@
+.theme12 {
+  width: 240px;
+}
+.theme12 .loading .line {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  background-color: #FF5722;
+}
+.theme12 .loading .line1 {
+  animation: theme12 1.5s 0s infinite;
+}
+.theme12 .loading .line2 {
+  animation: theme12 1.5s .1s infinite;
+}
+.theme12 .loading .line3 {
+  animation: theme12 1.5s .2s infinite;
+}
+.theme12 .loading .line4 {
+  animation: theme12 1.5s .3s infinite;
+}
+.theme12 .loading .line5 {
+  animation: theme12 1.5s .4s infinite;
+}
+@keyframes theme12 {
+  0% {
+    width: 15px;
+  }
+  50% {
+    width: 35px;
+  }
+  100% {
+    width: 15px;
+  }
+}
+
+/*# sourceMappingURL=theme12.css.map */

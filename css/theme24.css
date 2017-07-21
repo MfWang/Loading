@@ -1,0 +1,44 @@
+.theme24 .square {
+  margin-left: -30px;
+  margin-bottom: 15px;
+}
+.theme24 .square1 {
+  width: 12px;
+  height: 12px;
+  border-radius: 4px;
+  background-color: #4b9cdb;
+  animation: theme24_1 1.5s cubic-bezier(0.17, 0.37, 0.43, 0.67) infinite;
+}
+.theme24 .square2 {
+  float: right;
+  top: -15px;
+  width: 12px;
+  height: 12px;
+  border-radius: 4px;
+  background-color: #4b9cdb;
+  animation: theme24_2 1.5s cubic-bezier(0.17, 0.37, 0.43, 0.67) infinite;
+}
+@keyframes theme24_1 {
+  0% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+  50% {
+    transform: translate(70px, 0) rotate(360deg);
+  }
+  100% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+}
+@keyframes theme24_2 {
+  0% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+  50% {
+    transform: translate(-70px, 0) rotate(-360deg);
+  }
+  100% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+}
+
+/*# sourceMappingURL=theme24.css.map */
